@@ -1,6 +1,6 @@
 // Guarda la app (solo el código, nunca tus datos) para que funcione sin conexión en el gimnasio.
 // Sube el número de versión cuando cambies index.html para que el móvil coja la nueva.
-const CACHE = 'gym-v1';
+const CACHE = 'gym-v2';
 const ARCHIVOS = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
